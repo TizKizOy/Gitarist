@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 132.61 74.87">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .03em;
+      }
+
+      .cls-2 {
+        letter-spacing: .04em;
+      }
+
+      .cls-3 {
+        letter-spacing: .04em;
+      }
+
+      .cls-4 {
+        font-family: Bahnschrift-Bold, Bahnschrift;
+        font-variation-settings: 'wght' 700, 'wdth' 100;
+        font-weight: 700;
+      }
+
+      .cls-4, .cls-5 {
+        font-size: 22px;
+      }
+
+      .cls-6 {
+        letter-spacing: .01em;
+      }
+
+      .cls-7 {
+        stroke-width: 0px;
+      }
+
+      .cls-8 {
+        letter-spacing: .05em;
+      }
+
+      .cls-5 {
+        font-family: Bahnschrift-Light, Bahnschrift;
+        font-variation-settings: 'wght' 300, 'wdth' 100;
+        font-weight: 300;
+      }
+
+      .cls-9 {
+        letter-spacing: .1em;
+      }
+
+      .cls-10 {
+        letter-spacing: .06em;
+      }
+
+      .cls-11 {
+        letter-spacing: .02em;
+      }
+    </style>
+  </defs>
+  <g id="_Слой_2-2" data-name="Слой 2">
+    <g>
+      <g>
+        <path class="cls-7" d="m27.98,50.37c-2.84-1.7-7.55-7.88-6.57-12.25.82-3.65,5.64-6.17,9.26-6.57,2.7-.3,3.36.73,5.08,0,3.77-1.61,2.23-7.32,5.68-9.26,2.81-1.58,5.3,1.38,11.95,1.49,2.62.04,4.65-.39,7.77-1.2,7.03-1.82,25.79-7.24,50.79-14.84,1.2-.17,2.39-.33,3.59-.5,1.66,1.33,3.32,2.66,4.98,3.98,1.2-.1,2.39-.2,3.59-.3-.1-1.29-.2-2.59-.3-3.88-1.33-1.03-2.66-2.06-3.98-3.09-.07-.66-.13-1.33-.2-1.99-4.22,1.06-8.43,2.12-12.65,3.19-.5.56-1,1.13-1.49,1.69-16.43,4.38-32.86,8.76-49.29,13.15-1.09.59-2.46.29-3.19-.7-.71-.96-.63-2.31.2-3.19.56-1.29,1.23-3.4.3-4.98-1.62-2.75-7.24-2.52-11.05-1-5.05,2.02-4.26,5.26-8.81,6.82-3.96,1.36-8.32.21-12.85-1-3.56-.95-3.63-1.5-5.98-1.69-1.09-.09-6.32-.52-10.36,2.99-2.33,2.03-3.23,4.48-3.59,5.48-3.3,9.35,3.74,20.69,10.26,26.49,1.28,1.14,4.56,3.86,9.36,4.98.48.11,4.43.98,7.57-.6,1.4-.71,1.49-1.32,1.49-1.49.04-.85-1.19-1.53-1.54-1.74Z"/>
+        <circle class="cls-7" cx="107.97" cy="3.06" r="1.02"/>
+        <circle class="cls-7" cx="115.94" cy="1.02" r="1.02"/>
+        <circle class="cls-7" cx="111.93" cy="2.04" r="1.02"/>
+      </g>
+      <text class="cls-4" transform="translate(29.95 50.53)"><tspan class="cls-3" x="0" y="0">G</tspan><tspan class="cls-8" x="15.16" y="0">U</tspan><tspan class="cls-9" x="30.72" y="0">I</tspan><tspan class="cls-2" x="39" y="0">T</tspan><tspan class="cls-10" x="50.42" y="0">AR</tspan></text>
+      <text class="cls-5" transform="translate(46.84 68.92)"><tspan class="cls-6" x="0" y="0">S</tspan><tspan class="cls-11" x="13.78" y="0">C</tspan><tspan class="cls-1" x="27.83" y="0">H</tspan><tspan class="cls-6" x="43.42" y="0">O</tspan><tspan class="cls-11" x="57.85" y="0">O</tspan><tspan class="cls-1" x="72.5" y="0">L</tspan></text>
+    </g>
+  </g>
+</svg>
