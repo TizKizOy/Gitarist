@@ -594,12 +594,196 @@ footer
                 margin-right: 17px
 
 
-@media screen and ( max-width: 767px )
+@media (max-width: 767px)
     .container
         width: 540px
-        background-color: #d02626
-
-
+    .nav-menu
+        position: fixed
+        top: 0px
+        right: -100%
+        height: 100vh
+        width: 50%
+        background: $color-orange
+        z-index: 20px
+        transition: 1s all
+        &__list
+            flex-direction: column
+            justify-content: space-evenly
+            padding-left: 50%
+            height: 100%
+        &__list-item
+            margin-right: 0px
+            font-size: 20px
+    .hamburger
+        z-index: 30px
+        width: 30px
+        position: fixed
+        top: 45px
+        right: 30px
+        height: 14px
+        span
+            height: 2px
+            width: 100%
+            display: block
+            background: black
+            margin-bottom: 4px
+            transition: 1s all
+            &:last-child
+                margin-bottom: 0px
+    .hamburger_active
+        z-index: 30px
+        span
+            margin-bottom: -2px
+            &:nth-child(1)
+                transform: translateY(3px) rotate(-45deg)
+            &:nth-child(2)
+                display: none
+            &:nth-child(3)
+                transform: translateY(3px) rotate(45deg)
+    .nav-menu_active
+        right: 0px
+    .first-section
+        height: 410px
+        &__logo
+            width: 84px
+    .left-wrapper
+        &__img
+            position: absolute
+            top: 5px
+            width: 400px
+        &__rectangle-blue
+            top: 120px
+            left: -55px
+            width: 305px
+            height: 100px
+            transform: rotate(-68deg)
+        &__rectangle-orange
+            top: 130px
+            left: -25px
+            width: 305px
+            height: 100px
+            transform: rotate(-50deg)
+        &__rectangle-grey
+            top: 150px
+            left: 15px
+            width: 305px
+            height: 100px
+            transform: rotate(-35deg)
+    .rigth-wrapper
+        top:53px
+        left: 300px
+        width: 372px
+        height: 235px
+        &__list
+            left: 100px
+            margin-bottom: 1px
+            &-img
+                width: 30px
+                height: 30px
+            &-item
+                margin-right: 17px
+            &-item:last-child
+                margin-right: 0px
+            &-item:first-child
+                padding-left: 10px
+        &__text
+            &-bold
+                font-size: 45px
+                margin-bottom: 4px
+            &-hr
+                top: 70px
+                left: 2px
+                width: 35px
+            &-regular
+                font-size: 12px
+                line-height:17px
+                margin-bottom: 10px
+    .buttons
+        img
+            width: 45px
+            padding-right: 12px
+        &__text
+            font-size: 12px
+        &__main
+            &-btn
+                width: 130px
+                height: 40px
+                margin-right: 17px
+                font-size: 12px
+    .elipse
+        top: 55px
+        right:-15px
+        width: 124px
+        height: 124px
+        &_big
+            width: 282px
+            height: 282px
+            right: -90px
+            top: 650px
+        &__subtract
+            width: 83px
+            height: 83px
+            &_while
+                width: 133px
+                height: 133px
+            &_big
+                width: 188px
+                height: 188px
+                &-white
+                    width: 188px
+                    height: 188px
+    .second-section
+        height: 660px
+        &__container
+            position: relative
+        &__icons
+        &__text
+            font-size: 45px
+            margin-bottom: 20px
+        &__hr
+            top:27px
+            left: 6px
+            width: 30px
+        &__center-content
+            margin-bottom: 25px
+        &__thert-elipse
+            top:30px
+            right: -55px
+        &__four-elipse
+            top: 315px
+            left: -80px
+    .icons-item
+        height: 100px
+        img
+            margin-right: 20px
+        p
+            padding-top: 15px
+            line-height: 22px
+            font-size: 18px
+        span
+            font-size: 48px
+    .block
+        width: 220px
+        height: 210px
+        margin-right: 26px
+        padding-top: 25px
+        img
+            width: 55%
+            height: 190px
+        &__text
+            top: 145px
+            left: 170px
+            font-size: 36px
+        &:last-child
+            margin-right: 0px
+        &-left
+            background: $color-grey
+        &-center
+            background: $color-orange
+            &__text
+                left: 135px
+        &-right
+            background: $color-blue
 
 @media (max-width: 575px)
     .container

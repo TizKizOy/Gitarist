@@ -735,10 +735,246 @@ footer {
     margin-right: 17px;
   }
 }
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .container {
     width: 540px;
-    background-color: #d02626;
+  }
+  .nav-menu {
+    position: fixed;
+    top: 0px;
+    right: -100%;
+    height: 100vh;
+    width: 50%;
+    background: #F28B64;
+    z-index: 20px;
+    transition: 1s all;
+  }
+  .nav-menu__list {
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 50%;
+    height: 100%;
+  }
+  .nav-menu__list-item {
+    margin-right: 0px;
+    font-size: 20px;
+  }
+  .hamburger {
+    z-index: 30px;
+    width: 30px;
+    position: fixed;
+    top: 45px;
+    right: 30px;
+    height: 14px;
+  }
+  .hamburger span {
+    height: 2px;
+    width: 100%;
+    display: block;
+    background: black;
+    margin-bottom: 4px;
+    transition: 1s all;
+  }
+  .hamburger span:last-child {
+    margin-bottom: 0px;
+  }
+  .hamburger_active {
+    z-index: 30px;
+  }
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  .nav-menu_active {
+    right: 0px;
+  }
+  .first-section {
+    height: 410px;
+  }
+  .first-section__logo {
+    width: 84px;
+  }
+  .left-wrapper__img {
+    position: absolute;
+    top: 5px;
+    width: 400px;
+  }
+  .left-wrapper__rectangle-blue {
+    top: 120px;
+    left: -55px;
+    width: 305px;
+    height: 100px;
+    transform: rotate(-68deg);
+  }
+  .left-wrapper__rectangle-orange {
+    top: 130px;
+    left: -25px;
+    width: 305px;
+    height: 100px;
+    transform: rotate(-50deg);
+  }
+  .left-wrapper__rectangle-grey {
+    top: 150px;
+    left: 15px;
+    width: 305px;
+    height: 100px;
+    transform: rotate(-35deg);
+  }
+  .rigth-wrapper {
+    top: 53px;
+    left: 300px;
+    width: 372px;
+    height: 235px;
+  }
+  .rigth-wrapper__list {
+    left: 100px;
+    margin-bottom: 1px;
+  }
+  .rigth-wrapper__list-img {
+    width: 30px;
+    height: 30px;
+  }
+  .rigth-wrapper__list-item {
+    margin-right: 17px;
+  }
+  .rigth-wrapper__list-item:last-child {
+    margin-right: 0px;
+  }
+  .rigth-wrapper__list-item:first-child {
+    padding-left: 10px;
+  }
+  .rigth-wrapper__text-bold {
+    font-size: 45px;
+    margin-bottom: 4px;
+  }
+  .rigth-wrapper__text-hr {
+    top: 70px;
+    left: 2px;
+    width: 35px;
+  }
+  .rigth-wrapper__text-regular {
+    font-size: 12px;
+    line-height: 17px;
+    margin-bottom: 10px;
+  }
+  .buttons img {
+    width: 45px;
+    padding-right: 12px;
+  }
+  .buttons__text {
+    font-size: 12px;
+  }
+  .buttons__main-btn {
+    width: 130px;
+    height: 40px;
+    margin-right: 17px;
+    font-size: 12px;
+  }
+  .elipse {
+    top: 55px;
+    right: -15px;
+    width: 124px;
+    height: 124px;
+  }
+  .elipse_big {
+    width: 282px;
+    height: 282px;
+    right: -90px;
+    top: 650px;
+  }
+  .elipse__subtract {
+    width: 83px;
+    height: 83px;
+  }
+  .elipse__subtract_while {
+    width: 133px;
+    height: 133px;
+  }
+  .elipse__subtract_big {
+    width: 188px;
+    height: 188px;
+  }
+  .elipse__subtract_big-white {
+    width: 188px;
+    height: 188px;
+  }
+  .second-section {
+    height: 660px;
+  }
+  .second-section__container {
+    position: relative;
+  }
+  .second-section__text {
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+  .second-section__hr {
+    top: 27px;
+    left: 6px;
+    width: 30px;
+  }
+  .second-section__center-content {
+    margin-bottom: 25px;
+  }
+  .second-section__thert-elipse {
+    top: 30px;
+    right: -55px;
+  }
+  .second-section__four-elipse {
+    top: 315px;
+    left: -80px;
+  }
+  .icons-item {
+    height: 100px;
+  }
+  .icons-item img {
+    margin-right: 20px;
+  }
+  .icons-item p {
+    padding-top: 15px;
+    line-height: 22px;
+    font-size: 18px;
+  }
+  .icons-item span {
+    font-size: 48px;
+  }
+  .block {
+    width: 220px;
+    height: 210px;
+    margin-right: 26px;
+    padding-top: 25px;
+  }
+  .block img {
+    width: 55%;
+    height: 190px;
+  }
+  .block__text {
+    top: 145px;
+    left: 170px;
+    font-size: 36px;
+  }
+  .block:last-child {
+    margin-right: 0px;
+  }
+  .block-left {
+    background: #E2E2E2;
+  }
+  .block-center {
+    background: #F28B64;
+  }
+  .block-center__text {
+    left: 135px;
+  }
+  .block-right {
+    background: #5290EA;
   }
 }
 @media (max-width: 575px) {
