@@ -1,0 +1,607 @@
+$color-blue:#5290EA
+$color-orange: #F28B64
+$color-grey: #E2E2E2
+
+@font-face 
+    font-family: "Montserrat-SemiBold"
+    src: url('../fonts/Montserrat-SemiBold.ttf')
+    src: url('../fonts/Montserrat-SemiBold.eot')
+    src: url('../fonts/Montserrat-SemiBold.woff')
+    font-weight: bold
+    font-style: normal
+@font-face 
+    font-family: "Montserrat-Regular"
+    src: url('../fonts/Montserrat-Regular.ttf')
+    src: url('../fonts/Montserrat-Regular.eot')
+    src: url('../fonts/Montserrat-Regular.woff')
+    font-weight: regular
+    font-style: normal
+html
+    font-family: Montserrat-Regular
+
+*
+    //чтобы margin и padding были в 
+    //составе размера элемента
+    box-sizing: border-box
+
+.nav-menu__list-font
+    outline: none
+    text-decoration: none
+    color: black
+body
+    width: 100%
+    height: 100%
+.container
+    max-width: 1140px
+    margin: 0 auto
+.first-section
+    z-index: 1
+    position: relative
+    background-color: #F0F0F0
+    height: 800px
+    padding-top: 16px
+    margin-bottom: 32px
+    overflow: hidden
+    &__first-elipse
+        position: absolute
+    &__second-elipse
+        position: absolute
+    &__center-content
+        position: relative
+    &__nav
+        display: flex
+        flex-direction: row
+        justify-content: space-between 
+        height: 69px
+        align-items: center
+    &__logo
+        width: 134px
+        height: 69px
+.nav-menu
+    &__list
+        font-family: Montserrat-SemiBold
+        display: flex
+        flex-direction: row
+        &-item
+            margin-right: 66px
+            font-size: 18px
+        &-item:last-child 
+            margin-right: 0px
+        &-font
+.left-wrapper
+    position: relative
+    &__rectangle-blue
+        position: absolute
+        z-index: -2
+        top: 150px
+        left: -50px
+        width: 565.95px
+        height: 220px
+        background: $color-blue
+        border-radius: 100px
+        box-shadow: 0px 4px 4px rgba(0,0,0,0.25)
+        transform: rotate(-64deg)
+    &__rectangle-orange
+        position: absolute
+        z-index: -1
+        top: 155px
+        left: -25px
+        width: 618.43px
+        height: 220px
+        background: $color-orange
+        border-radius: 100px
+        box-shadow: 0px 4px 4px rgba(0,0,0,0.25)
+        transform: rotate(-50deg)
+    &__rectangle-grey
+        position: absolute
+        z-index: -2
+        top: 195px
+        left: 15px
+        width: 608.97px
+        height: 220px
+        background: $color-grey
+        border-radius: 100px
+        box-shadow: 0px 4px 4px rgba(0,0,0,0.25)
+        transform: rotate(-35deg)
+.rigth-wrapper
+    z-index: 2
+    position: absolute
+    top:133px
+    left: 742px
+    width: 372px
+    height: 235px
+    &__list
+        left: 100px
+        display: flex
+        flex-direction: row
+        margin-bottom: 1px
+        &-img
+            width: 40px
+            height: 40px
+        &-item
+            margin-right: 17px
+        &-item:last-child
+            margin-right: 0px
+        &-item:first-child
+            padding-left: 10px
+    &__text
+        &-bold
+            font-size: 72px
+            margin-bottom: 5px
+            font-family: Montserrat-SemiBold
+        &-hr
+            top: 105px
+            position: absolute
+            left: 2px
+            width: 55px
+            border: 0.5px solid black
+        &-regular
+            font-size: 16px
+            line-height:17px
+            margin-bottom: 20px
+            font-family: Montserrat-Regular
+.buttons
+    display: flex
+    flex-direction: row
+    font-family: Montserrat-SemiBold
+    &__icon-btn
+        display: inline-flex
+        align-items: center
+    img
+        padding-right: 12px
+    &__text
+        font-size: 16px
+        font-family: Montserrat-Regular
+    &__main
+        &-btn
+            z-index: 2
+            width: 200px
+            height: 60px
+            margin-right: 32px
+            background: $color-orange
+            border: 0px
+            border-radius: 100px
+            box-shadow: 0px 4px 4px rgba(0,0,0,0.25)
+            font-size: 18px
+            color: white
+            cursor: pointer
+.elipse
+    z-index: -1
+    top: 125px
+    right:-15px
+    position: absolute
+    width: 194px
+    height: 194px
+    background: linear-gradient(143.92deg,rgba(237,123,80,0.5) 14.85%,rgba(72,138,234,0.5) 53.25%,rgba(44,44,44,0.5)85.74%)
+    border-radius: 100px
+    display: flex
+    justify-content: center
+    align-items: center
+    &_big
+        width: 282px
+        height: 282px
+        right: -90px
+        top: 650px
+        border-radius: 150px
+    &__subtract
+        width: 133px
+        height: 133px
+        background: #F0F0F0
+        border-radius: 100px
+        &_while
+            width: 133px
+            height: 133px
+            background:#ffff
+            border-radius: 100px
+        &_big
+            width: 188px
+            height: 188px
+            border-radius: 100px
+            background: #F0F0F0
+            &-white
+                width: 188px
+                height: 188px
+                border-radius: 100px
+                background:#ffff
+.second-section
+    height: 660px
+    overflow: hidden
+    &__container
+        position: relative
+    &__icons
+        display: flex
+        justify-content: space-evenly
+    &__text
+        font-size: 72px
+        margin-bottom: 40px
+        font-family: Montserrat-SemiBold
+    &__hr
+        position: absolute
+        top:40px
+        left: 6px
+        width: 94px
+        border: 0.5px solid black
+    &__center-content
+        margin-bottom: 25px
+        display: flex
+        justify-content: space-evenly
+        font-family: Montserrat-SemiBold
+    &__thert-elipse
+        top:30px
+        right: -55px
+    &__four-elipse
+        top: 315px
+        left: -80px
+.title
+    h2
+        font-size: 72px
+        margin-bottom: 0px 
+    hr
+        position: absolute
+        width: 94px
+        border: 0.5px solid black
+.icons-item
+    display: inline-flex
+    align-items: center
+    height: 100px
+    img
+        margin-right: 20px
+    p
+        padding-top: 15px
+        line-height: 22px
+        font-size: 18px
+    span
+        font-size: 48px
+        font-family: Montserrat-SemiBold
+.block
+    border-radius: 10px
+    display: inline-flex
+    width: 360px
+    height: 360px
+    margin-right: 26px
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25)
+    position: relative
+    padding-top: 25px
+    &__text
+        text-align: center
+        position: absolute
+        top: 145px
+        left: 170px
+        transform: rotate(90deg)
+        font-size: 36px
+    &:last-child
+        margin-right: 0px
+    &-left
+        background: $color-grey
+    &-center
+        background: $color-orange
+        &__text
+            left: 135px
+    &-right
+        background: $color-blue
+.third-section
+    position: relative
+    background-color: #F0F0F0
+    height: 670px
+    z-index: -2
+    overflow: hidden
+    &__conteiner
+        z-index: 1
+        display: flex
+        align-items: center
+        justify-content: space-around
+        position: relative
+    &__second-elipse
+        position: absolute
+        top: 10px
+        left: 185px
+    &__third-elipse
+        z-index: 1
+        position: absolute
+        top: -120px
+        right: -90px
+.left-part
+    top:30px
+    left: -90px
+    position: relative
+    display: flex
+    width: 542px
+    height: 320px
+    justify-content: flex-end
+    align-items: center
+    &__circle
+        position: absolute
+        top: 90px
+        left: 75px 
+    &__text
+        left: 100px
+        font-family: Montserrat-SemiBold
+        h2
+            position: absolute
+            top: 115px
+            left: 230px
+        hr
+            left:235px
+            top: 173px
+            width: 60px
+.right-part
+    position: relative
+    width: 480px
+    height: 550px
+    top: 50px
+    right: -55px
+    &-button
+    &__text
+        h2
+            font-family: Montserrat-SemiBold
+            padding-left: 10px
+            margin-bottom: 20px
+        &-regular
+            font-size: 18px
+            padding-right: 30px
+            margin-bottom: 30px 
+            line-height: 21px
+        hr
+            left: 17px
+            top:60px 
+            width: 70px
+footer
+    overflow: hidden
+    height: 280px
+.footer-conteiner
+    position: relative
+    &__left-img
+        position: absolute
+        left: -150px
+    &__text
+        font-family: Montserrat-SemiBold
+        position: absolute
+        top: 38px
+        right: -10px
+        h2
+            font-size: 70px
+            line-height: 70px
+        hr
+            right: 460px
+            top: 60px
+            width: 75px    
+.footer-ikon
+    position: absolute
+    &__list
+        display: inline-flex
+        position: absolute
+        top: 190px
+        right: 295px
+        &-item
+            margin-right: 17px
+
+@media ( max-width: 1199px)
+    .container
+        width: 960px
+    .left-wrapper
+        position: relative
+        &__img
+            width: 750px
+        &__rectangle-blue
+            width: 500px
+            height: 200px  
+            left: -60px 
+            top:150px
+            transform: rotate(-70deg)
+        &__rectangle-orange
+            width: 500px
+            height: 200px
+            top:165px
+            transform: rotate(-52deg)
+        &__rectangle-grey
+            width: 500px
+            height: 200px   
+            transform: rotate(-40deg)
+    .rigth-wrapper
+        left: 582px
+    .first-section
+        height: 690px
+    footer
+        height: 225px
+    .footer-conteiner
+        &__left-img
+            width: 500px
+        &__text
+            h2
+                font-family: Montserrat-SemiBold
+                font-size: 55px
+            hr
+                right: 350px 
+    .footer-ikon
+        &__list
+            right: 225px
+        &__list-img
+            width: 30px
+            height: 30px
+    .firts-section__second-elipse
+        top: 550px
+
+@media (max-width: 991px)
+    .container
+        width: 720px
+    .left-wrapper
+        position: relative
+        left: -10px
+        &__img
+            width: 600px
+        &__rectangle-blue
+            width: 400px
+            height: 120px
+            left: -60px
+            top:140px
+            transform: rotate(-68deg)
+        &__rectangle-orange
+            width: 420px
+            height: 120px  
+            top:165px
+            transform: rotate(-50deg)
+        &__rectangle-grey
+            width: 420px
+            height: 120px  
+            transform: rotate(-32deg)
+    .rigth-wrapper
+        left: 452px
+        &__list
+            &-img
+                width: 36px
+                height: 36px
+            &-item
+                margin-right: 17px
+            &-item:last-child
+                margin-right: 0px
+            &-item:first-child
+                padding-left: 10px
+        &__text
+            &-bold
+                font-size: 60px
+                margin-bottom: 5px
+                font-family: Montserrat-SemiBold
+            &-hr
+                top: 90px
+            &-regular
+                font-size: 14px
+                line-height:17px
+                margin-bottom: 10px
+                font-family: Montserrat-Regular
+    .first-section
+        height: 565px
+    .elipse
+        right: -50px
+        width: 160px
+        height: 160px
+        &_big
+            top: 480px 
+        &__subtract
+            width: 110px
+            height: 110px
+            &_while
+                width: 110px
+                height: 110px
+    .buttons
+        img
+            width: 50px
+            height: 50px
+        &__text
+            font-size: 14px
+        &__main
+            &-btn
+                width: 150px
+                height: 50px
+                font-size: 14px
+    .second-section
+        height: 520px
+        &__thert-elipse
+            top: 40px
+        &__four-elipse
+            top: 280px
+    .block
+        width: 400px
+        height: 275px
+        padding-top: 25px
+        img
+            width: 70%
+            height: 250px
+        &__text
+            top: 115px
+            left: 120px
+            font-size: 28px
+        &-center
+            &__text
+                left: 85px
+    .icons-item
+        height: 80px
+        img
+            margin-right: 5px
+            width: 80%
+            height: 80%
+        p
+            padding-top: 15px
+            line-height: 14px
+            font-size: 10px
+        span
+            font-size: 32px
+    .third-section
+        height: 615px
+        &__second-elipse
+            top: 40px
+            left: 125px
+        &__third-elipse
+            top: -100px
+            right: -90px
+    .left-part
+        top:10px
+        left: -110px
+        width: 542px
+        height: 220px
+        &__circle
+            top: 05px
+            left: 90px 
+        &__text
+            left: 100px
+            h2
+                font-size: 55px
+                top: 95px
+                left: 180px
+            hr
+                left:185px
+                top: 145px
+                width: 50px
+    .right-part
+        width: 480px
+        height: 550px
+        top: 50px
+        right: -55px
+        &-button
+        &__text
+            h2
+                font-size: 60px
+                padding-left: 0px
+                margin-bottom: 20px
+            &-regular
+                font-size: 14px
+                padding-right: 30px
+                margin-bottom: 30px 
+                line-height: 18px
+            hr
+                left: 3px
+                top:60px 
+                width: 70px
+    footer
+        height: 200px
+    .footer-conteiner
+        &__left-img
+            width: 450px
+        &__text
+            top: 38px
+            right: -60px
+            h2
+                font-size: 50px
+                line-height: 50px
+            hr
+                right: 305px
+                top: 50px
+                width: 75px    
+    .footer-ikon
+        &__list
+            top: 160px
+            right: 135px
+            &-item
+                margin-right: 17px
+
+
+@media screen and ( max-width: 767px )
+    .container
+        width: 540px
+        background-color: #d02626
+
+
+
+@media (max-width: 575px)
+    .container
+        width: 100%
+        background-color: $color-orange

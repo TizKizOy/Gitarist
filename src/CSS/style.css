@@ -735,13 +735,15 @@ footer {
     margin-right: 17px;
   }
 }
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .container {
     width: 540px;
+    background-color: #d02626;
   }
 }
 @media (max-width: 575px) {
   .container {
     width: 100%;
+    background-color: #F28B64;
   }
 }/*# sourceMappingURL=style.css.map */
