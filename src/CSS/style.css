@@ -653,7 +653,7 @@ footer {
     font-size: 32px;
   }
   .third-section {
-    height: 615px;
+    height: 590px;
   }
   .third-section__second-elipse {
     top: 40px;
@@ -687,7 +687,7 @@ footer {
     width: 50px;
   }
   .right-part {
-    width: 480px;
+    width: 550px;
     height: 550px;
     top: 50px;
     right: -55px;
@@ -954,16 +954,16 @@ footer {
     padding-top: 25px;
   }
   .block img {
-    width: 55%;
+    width: 65%;
     height: 185px;
   }
   .block__text {
     top: 90px;
-    left: 75px;
+    left: 85px;
     font-size: 20px;
   }
   .block-center__text {
-    left: 50px;
+    left: 60px;
   }
   .icons-item {
     height: 45px;
@@ -1186,9 +1186,6 @@ footer {
   .second-section {
     height: 280px;
   }
-  .second-section__container {
-    position: relative;
-  }
   .second-section__text {
     padding-left: 10px;
     font-size: 45px;
@@ -1201,7 +1198,7 @@ footer {
     width: 30px;
   }
   .second-section__center-content {
-    margin-bottom: 10px;
+    justify-content: center;
   }
   .second-section__thert-elipse {
     top: 10px;
@@ -1225,22 +1222,23 @@ footer {
     font-size: 48px;
   }
   .block {
+    display: inline;
     width: 110px;
     height: 140px;
-    margin-right: 0px;
+    margin-right: 10px;
     padding-top: 20px;
   }
   .block img {
-    width: 55%;
+    width: 60%;
     height: 120px;
   }
   .block__text {
     top: 55px;
-    left: 45px;
+    left: 60px;
     font-size: 12px;
   }
   .block-center__text {
-    left: 40px;
+    left: 43px;
   }
   .icons-item {
     height: 45px;
@@ -1344,6 +1342,53 @@ footer {
   .footer-ikon__list {
     top: 80px;
     right: 35px;
+  }
+  .footer-ikon__list-item {
+    margin-right: 17px;
+  }
+  .footer-ikon__list-item img {
+    width: 27px;
+    height: 27px;
+  }
+}
+@media (max-width: 368px) {
+  .container {
+    width: 100%;
+  }
+  .first-section {
+    height: 275px;
+  }
+  .rigth-wrapper {
+    top: 10px;
+    left: 50px;
+    width: 372px;
+    height: 135px;
+  }
+  .third-section {
+    height: 363px;
+  }
+  footer {
+    height: 109px;
+  }
+  .footer-conteiner__left-img {
+    display: none;
+  }
+  .footer-conteiner__text {
+    top: 10px;
+    right: 35px;
+  }
+  .footer-conteiner__text h2 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .footer-conteiner__text hr {
+    right: 178px;
+    top: 20px;
+    width: 35px;
+  }
+  .footer-ikon__list {
+    top: 80px;
+    right: 55px;
   }
   .footer-ikon__list-item {
     margin-right: 17px;
