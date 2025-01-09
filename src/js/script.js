@@ -6,14 +6,12 @@ window.addEventListener('DOMContentLoaded', () =>{
     hamburger.addEventListener('click', () =>{
         hamburger.classList.toggle('hamburger_active');
         menu.classList.toggle('nav-menu_active');
-        document.getElementById("rw").style.display = "none";
     });
 
     menuItem.forEach(item => {
         item.addEventListener('click', () =>{
             hamburger.classList.toggle('hamburger_active');
             menu.classList.toggle('nav-menu_active');
-            document.getElementById("rw").style.display = "block";
         })
     })
 })

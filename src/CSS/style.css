@@ -744,15 +744,16 @@ footer {
     top: 0px;
     right: -100%;
     height: 100vh;
-    width: 50%;
+    width: 35%;
     background: #F28B64;
-    z-index: 20px;
+    z-index: 20;
     transition: 1s all;
   }
   .nav-menu__list {
     flex-direction: column;
     justify-content: space-evenly;
-    padding-left: 50%;
+    padding-top: 20px;
+    padding-left: 35%;
     height: 100%;
   }
   .nav-menu__list-item {
@@ -779,7 +780,7 @@ footer {
     margin-bottom: 0px;
   }
   .hamburger_active {
-    z-index: 30px;
+    z-index: 30;
   }
   .hamburger_active span {
     margin-bottom: -2px;
@@ -1071,44 +1072,40 @@ footer {
   .container {
     width: 100%;
   }
+  .nav-menu__list {
+    padding-top: 35px;
+    padding-left: 30%;
+  }
+  .nav-menu__list-item {
+    font-size: 14px;
+  }
+  .hamburger {
+    width: 20px;
+  }
   .first-section {
-    height: 310px;
+    height: 275px;
   }
   .first-section__logo {
-    width: 84px;
+    padding-left: 20px;
+    width: 80px;
   }
   .left-wrapper__img {
     display: none;
   }
   .left-wrapper__rectangle-blue {
     display: none;
-    top: 130px;
-    left: -15px;
-    width: 205px;
-    height: 50px;
-    transform: rotate(-64deg);
   }
   .left-wrapper__rectangle-orange {
     display: none;
-    top: 140px;
-    left: 0px;
-    width: 205px;
-    height: 50px;
-    transform: rotate(-50deg);
   }
   .left-wrapper__rectangle-grey {
     display: none;
-    top: 150px;
-    left: 15px;
-    width: 205px;
-    height: 50px;
-    transform: rotate(-35deg);
   }
   .rigth-wrapper {
-    top: 25px;
-    left: 60px;
+    top: 10px;
+    left: 75px;
     width: 372px;
-    height: 235px;
+    height: 135px;
   }
   .rigth-wrapper__list {
     left: 100px;
@@ -1139,20 +1136,23 @@ footer {
   .rigth-wrapper__text-regular {
     font-size: 12px;
     line-height: 17px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+  }
+  .buttons {
+    align-items: center;
   }
   .buttons img {
-    width: 45px;
-    padding-right: 12px;
+    width: 35px;
+    padding-right: 8px;
   }
   .buttons__text {
-    font-size: 12px;
+    font-size: 10px;
   }
   .buttons__main-btn {
-    width: 130px;
-    height: 40px;
-    margin-right: 17px;
-    font-size: 12px;
+    width: 75px;
+    height: 30px;
+    margin-right: 13px;
+    font-size: 7px;
   }
   .elipse {
     top: 35px;
@@ -1190,13 +1190,14 @@ footer {
     position: relative;
   }
   .second-section__text {
+    padding-left: 10px;
     font-size: 45px;
     margin-bottom: 20px;
   }
   .second-section__hr {
     font-size: 45px;
     top: 27px;
-    left: 6px;
+    left: 16px;
     width: 30px;
   }
   .second-section__center-content {
@@ -1207,8 +1208,7 @@ footer {
     right: -50px;
   }
   .second-section__four-elipse {
-    top: 135px;
-    left: -50px;
+    display: none;
   }
   .icons-item {
     height: 100px;
@@ -1261,7 +1261,7 @@ footer {
     padding-top: 1px;
   }
   .third-section {
-    height: 365px;
+    height: 323px;
   }
   .third-section__second-elipse {
     width: 150px;
@@ -1281,9 +1281,9 @@ footer {
     height: 220px;
   }
   .left-part__circle {
-    width: 150px;
+    width: 100px;
     top: 60px;
-    left: 65px;
+    left: 85px;
   }
   .left-part__text {
     left: 100px;
@@ -1295,49 +1295,55 @@ footer {
     display: none;
   }
   .right-part {
-    width: 530px;
+    width: 500px;
     height: 550px;
-    top: 50px;
+    top: 20px;
     right: 0px;
+  }
+  .right-part-button {
+    padding-left: 15px;
   }
   .right-part__text h2 {
     font-size: 45px;
-    padding-left: 0px;
-    margin-bottom: 20px;
+    padding-left: 15px;
+    margin-bottom: 10px;
   }
   .right-part__text-regular {
-    font-size: 10px;
-    padding-right: 30px;
-    margin-bottom: 20px;
+    font-size: 9px;
+    padding-left: 15px;
+    padding-right: 20px;
+    margin-bottom: 10px;
     line-height: 14px;
   }
   .right-part__text hr {
-    left: 3px;
+    left: 15px;
     top: 35px;
     width: 30px;
   }
   footer {
-    height: 154px;
+    height: 109px;
   }
   .footer-conteiner__left-img {
-    width: 350px;
+    top: 20px;
+    left: -60px;
+    width: 200px;
   }
   .footer-conteiner__text {
-    top: 18px;
-    right: 20px;
+    top: 10px;
+    right: 15px;
   }
   .footer-conteiner__text h2 {
-    font-size: 35px;
-    line-height: 45px;
+    font-size: 28px;
+    line-height: 30px;
   }
   .footer-conteiner__text hr {
-    right: 220px;
-    top: 40px;
-    width: 45px;
+    right: 178px;
+    top: 20px;
+    width: 35px;
   }
   .footer-ikon__list {
-    top: 120px;
-    right: 105px;
+    top: 80px;
+    right: 35px;
   }
   .footer-ikon__list-item {
     margin-right: 17px;

@@ -602,14 +602,15 @@ footer
         top: 0px
         right: -100%
         height: 100vh
-        width: 50%
+        width: 35%
         background: $color-orange
-        z-index: 20px
+        z-index: 20
         transition: 1s all
         &__list
             flex-direction: column
             justify-content: space-evenly
-            padding-left: 50%
+            padding-top: 20px
+            padding-left: 35%
             height: 100%
         &__list-item
             margin-right: 0px
@@ -631,7 +632,7 @@ footer
             &:last-child
                 margin-bottom: 0px
     .hamburger_active
-        z-index: 30px
+        z-index: 30
         span
             margin-bottom: -2px
             &:nth-child(1)
@@ -865,39 +866,32 @@ footer
 @media (max-width: 575px)
     .container
         width: 100%
+    .nav-menu__list
+        padding-top: 35px
+        padding-left: 30%
+        &-item
+            font-size: 14px
+    .hamburger
+        width: 20px
     .first-section
-        height: 310px
+        height: 275px
         &__logo
-            width: 84px
+            padding-left: 20px
+            width: 80px
     .left-wrapper
         &__img
             display: none
         &__rectangle-blue
             display: none
-            top: 130px
-            left: -15px
-            width: 205px
-            height: 50px
-            transform: rotate(-64deg)
         &__rectangle-orange
             display: none
-            top: 140px
-            left: 0px
-            width: 205px
-            height: 50px
-            transform: rotate(-50deg)
         &__rectangle-grey
             display: none
-            top: 150px
-            left: 15px
-            width: 205px
-            height: 50px
-            transform: rotate(-35deg)
     .rigth-wrapper
-        top:25px
-        left: 60px
+        top:10px
+        left: 75px
         width: 372px
-        height: 235px
+        height: 135px
         &__list
             left: 100px
             margin-bottom: 1px
@@ -921,19 +915,20 @@ footer
             &-regular
                 font-size: 12px
                 line-height:17px
-                margin-bottom: 10px
+                margin-bottom: 0px
     .buttons
+        align-items: center
         img
-            width: 45px
-            padding-right: 12px
+            width: 35px
+            padding-right: 8px
         &__text
-            font-size: 12px
+            font-size: 10px
         &__main
             &-btn
-                width: 130px
-                height: 40px
-                margin-right: 17px
-                font-size: 12px
+                width: 75px
+                height: 30px
+                margin-right: 13px
+                font-size: 7px
     .elipse
         top: 35px
         right:45px
@@ -964,12 +959,13 @@ footer
         &__icons
             
         &__text
+            padding-left: 10px
             font-size: 45px
             margin-bottom: 20px
         &__hr
             font-size: 45px
             top:27px
-            left: 6px
+            left: 16px
             width: 30px
         &__center-content
             margin-bottom: 10px
@@ -977,8 +973,7 @@ footer
             top:10px
             right: -50px
         &__four-elipse
-            top: 135px
-            left: -50px
+            display: none
     .icons-item
         height: 100px
         img
@@ -1020,7 +1015,7 @@ footer
             font-size: 14px  
             padding-top: 1px   
     .third-section
-        height: 365px
+        height: 323px
         &__second-elipse
             width: 150px
             height: 150px
@@ -1036,9 +1031,9 @@ footer
         width: 542px
         height: 220px
         &__circle
-            width: 150px
+            width: 100px
             top: 60px
-            left: 65px 
+            left: 85px 
         &__text
             left: 100px
             h2
@@ -1046,44 +1041,48 @@ footer
             hr
                 display: none
     .right-part
-        width: 530px
+        width: 500px
         height: 550px
-        top: 50px
+        top: 20px
         right: 0px
         &-button
+            padding-left: 15px
         &__text
             h2
                 font-size: 45px
-                padding-left: 0px
-                margin-bottom: 20px
+                padding-left: 15px
+                margin-bottom: 10px
             &-regular
-                font-size: 10px
-                padding-right: 30px
-                margin-bottom: 20px 
+                font-size:9px
+                padding-left: 15px
+                padding-right: 20px
+                margin-bottom: 10px 
                 line-height: 14px
             hr
-                left: 3px
+                left: 15px
                 top:35px 
                 width: 30px
     footer
-        height: 154px
+        height: 109px
     .footer-conteiner
         &__left-img
-            width: 350px
+            top: 20px
+            left: -60px
+            width: 200px
         &__text
-            top: 18px
-            right: 20px
+            top: 10px
+            right: 15px
             h2
-                font-size: 35px
-                line-height: 45px
+                font-size: 28px
+                line-height: 30px
             hr
-                right: 220px
-                top: 40px
-                width: 45px    
+                right: 178px
+                top: 20px
+                width: 35px    
     .footer-ikon
         &__list
-            top: 120px
-            right: 105px
+            top: 80px
+            right: 35px
             &-item
                 margin-right: 17px
                 img
